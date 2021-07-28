@@ -1,0 +1,8 @@
+1. Color Enhancement
+Convert The Image to Float
+you split the image to Three images of R, G, B values Seperately
+To enhance the colors, we sum the RGB Values to produce a 4th matrix, which is the total sum of each individual pixel values, and then we divide the R, G, B matrix by the sumed up matrix
+Then we normalize the 3 divided matrix, and we merge it into a new image
+This produces an effect, where the original colors like red, blue and green are enhanced, whereas secondary colors such as orange, yellow become more dull.
+This also removes any white pigment in the image.
+https://irsa.ipac.caltech.edu/applications/FinderChart/docs/color_enhance.html
