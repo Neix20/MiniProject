@@ -42,28 +42,28 @@ def remove_background(img, threshold):
 ## Image
 img_path = "Dataset\\Apple\\0_100.jpg"
 img = cv2.imread(img_path)
-img = cv2.resize(img, (200, 200),interpolation = cv2.INTER_AREA)
+img = cv2.resize(img, (400, 400),interpolation = cv2.INTER_AREA)
 img = remove_background(img, threshold = 225)
-cv2.imshow("Orginal Image", img)
+cv2.imshow("Original Image", img)
 
 ## Test Image
 test_img_path = "Test_Images\\Apple\\apple1.jpg"
 test_img = cv2.imread(test_img_path)
-test_img = cv2.resize(test_img, (200, 200),interpolation = cv2.INTER_AREA)
+test_img = cv2.resize(test_img, (400, 400),interpolation = cv2.INTER_AREA)
 test_img = remove_background(test_img, threshold = 225)
 cv2.imshow("Test Image", test_img)
 
 ## Contrast Image
 ## Brighten Up Image
 img = cv2.imread(img_path)
-img = cv2.resize(img, (200, 200),interpolation = cv2.INTER_AREA)
+img = cv2.resize(img, (400, 400),interpolation = cv2.INTER_AREA)
 img = remove_background(img, threshold = 225)
 img = cv2.convertScaleAbs(img, alpha=1.5, beta=20)
 cv2.imshow("Brightened Image", img)
 
 ## Color Enhancement
 img = cv2.imread(img_path)
-img = cv2.resize(img, (200, 200),interpolation = cv2.INTER_AREA)
+img = cv2.resize(img, (400, 400),interpolation = cv2.INTER_AREA)
 img = remove_background(img, 225)
 img = img / 255.0
 
