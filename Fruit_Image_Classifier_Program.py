@@ -313,6 +313,9 @@ def gen_dataset():
 
     print("")
     align_left(f"Minimum Number of Images: {min_num_of_img}", 25)
+    
+    print("")
+    align_left(f"Total Number of Images: {min_num_of_img * len(get_fruit_type())}", 25)
 
     print("")
     align_left(f"Total number of features: {len(feature_arr) + 1}", 25)
@@ -731,8 +734,20 @@ while choice != len(menu_options[0]):
                     
                     fruit_str = option_arr[choice_2 - 1]
                     
+                    os.system("cls")
+                    print("")
+                    draw_line(screen_size)
+                    print(f"Showing First 300 Images of {fruit_str}".center(screen_size))
+                    draw_line(screen_size)
+                    print("")
                     show_300(fruit_str)
                     plt.show()
+                    print("")
+                    align_left("Generate Complete! Task Completed Successfully!", 25)
+                    print("")
+                    draw_line(screen_size)
+                    print("")
+                    os.system("PAUSE")
                     
             elif choice_1 == 3:
                 gen_dataset()
