@@ -743,7 +743,7 @@ while choice != len(menu_options[0]):
                     show_300(fruit_str)
                     plt.show()
                     print("")
-                    align_left("Generate Complete! Task Completed Successfully!", 25)
+                    align_left("Task Completed Successfully!")
                     print("")
                     draw_line(screen_size)
                     print("")
