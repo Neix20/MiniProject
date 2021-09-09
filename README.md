@@ -21,10 +21,16 @@ For this semester, our mini project was on introduction of Image Processing. For
 Fruits 360 dataset: A dataset of images containing fruits and vegetables ([Link](https://www.kaggle.com/moltean/fruits))
 
 ## Google Drive Link
-[Google Drive Repository](https://drive.google.com/drive/folders/1SCFhdqIMTEbKVldtK2dzOHchMVCGLxUa?usp=sharing)
+[Google Drive Repository](https://drive.google.com/drive/folders/1nwDUyBuLq8jlWzUven5MUV2RDDWYCW4N?usp=sharing)
 
 ## Github Repo (For This Assignment):
 [Github Repo](https://github.com/Neix20/MiniProject)
+
+## Presentation Video Link
+[Presentation Video](https://drive.google.com/file/d/1nuWo8pfAkyzwoR7Bqsmfz51vcURxgTba/view?usp=sharing)
+
+## Demo Video Link
+[Demo Video](https://drive.google.com/file/d/1dWEvkKYy-jKbiF_8hRZXsSdsYrCOKt-v/view?usp=sharing)
 
 ## Libraries Used
 opencv_python 4.5.2.54\
