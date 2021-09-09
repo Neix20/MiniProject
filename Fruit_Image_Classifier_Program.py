@@ -315,7 +315,7 @@ def gen_dataset():
     align_left(f"Minimum Number of Images: {min_num_of_img}", 25)
     
     print("")
-    align_left(f"Total Number of Images: {min_num_of_img * len(get_fruit_type())}", 25)
+    align_left(f"Total Number of Images: {min_num_of_img * (len(get_fruit_type()) - 1)}", 25)
 
     print("")
     align_left(f"Total number of features: {len(feature_arr) + 1}", 25)
