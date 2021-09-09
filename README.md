@@ -34,7 +34,7 @@ matplotlib 3.4.2\
 seaborn 0.11.1\
 scikit_image 0.18.2\
 scikit_learn 0.24.2\
-jupyter notebook\
+jupyter notebook
 
 ## How to Use:
 1. There will be twelve files and folders in this project. That is:
