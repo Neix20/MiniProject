@@ -27,14 +27,14 @@ Fruits 360 dataset: A dataset of images containing fruits and vegetables ([Link]
 [Github Repo](https://github.com/Neix20/MiniProject)
 
 ## Libraries Used
-opencv_python 4.5.2.54
-pandas 1.2.1
-numpy 1.19.5
-matplotlib 3.4.2
-seaborn 0.11.1
-scikit_image 0.18.2
-scikit_learn 0.24.2
-jupyter notebook
+opencv_python 4.5.2.54\
+pandas 1.2.1\
+numpy 1.19.5\
+matplotlib 3.4.2\
+seaborn 0.11.1\
+scikit_image 0.18.2\
+scikit_learn 0.24.2\
+jupyter notebook\
 
 ## How to Use:
 1. There will be twelve files and folders in this project. That is:
